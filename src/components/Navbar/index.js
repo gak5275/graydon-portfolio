@@ -10,6 +10,8 @@ export const Nav = styled.nav`
     justify-content: space-between;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
+    text-align: center;
+    margin: auto;
 `;
 
 export const NavLink = styled(Link)`
@@ -23,6 +25,8 @@ export const NavLink = styled(Link)`
     &.active {
         color: #4d4dff;
     }
+    text-align: center;
+    margin: auto;
 `;
 
 //export const Bars = styled(FaBars)`
@@ -51,4 +55,6 @@ white-space: nowrap; */
     @media screen and (max-width: 768px) {
         display: none;
     }
+    text-align: center;
+    margin: auto;
 `;
