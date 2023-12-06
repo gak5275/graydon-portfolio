@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/graydon-portfolio/static/css/main.2444783a.css",
-    "main.js": "/graydon-portfolio/static/js/main.9ca52c36.js",
+    "main.css": "/graydon-portfolio/static/css/main.02af73d3.css",
+    "main.js": "/graydon-portfolio/static/js/main.caf079cf.js",
     "static/js/787.2ba79d0d.chunk.js": "/graydon-portfolio/static/js/787.2ba79d0d.chunk.js",
     "static/media/Sketch7copy.jpg": "/graydon-portfolio/static/media/Sketch7copy.1c9cd2fa00a694b4030a.jpg",
     "static/media/murray.png": "/graydon-portfolio/static/media/murray.9abe7b05ae3886797900.png",
     "static/media/Sketch8copy.jpg": "/graydon-portfolio/static/media/Sketch8copy.c095738ccf3555b6ecba.jpg",
     "static/media/Sketch6copy.jpg": "/graydon-portfolio/static/media/Sketch6copy.ea6fc6ce712a6773c097.jpg",
     "static/media/Sketch5copy.jpg": "/graydon-portfolio/static/media/Sketch5copy.4001278a6709c0f93325.jpg",
+    "static/media/erindefault.png": "/graydon-portfolio/static/media/erindefault.f40a5a8af46359a3410f.png",
+    "static/media/runes.png": "/graydon-portfolio/static/media/runes.16ebba4ad33bf207f8ce.png",
     "static/media/logo.svg": "/graydon-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/graydon-portfolio/index.html",
-    "main.2444783a.css.map": "/graydon-portfolio/static/css/main.2444783a.css.map",
-    "main.9ca52c36.js.map": "/graydon-portfolio/static/js/main.9ca52c36.js.map",
+    "main.02af73d3.css.map": "/graydon-portfolio/static/css/main.02af73d3.css.map",
+    "main.caf079cf.js.map": "/graydon-portfolio/static/js/main.caf079cf.js.map",
     "787.2ba79d0d.chunk.js.map": "/graydon-portfolio/static/js/787.2ba79d0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2444783a.css",
-    "static/js/main.9ca52c36.js"
+    "static/css/main.02af73d3.css",
+    "static/js/main.caf079cf.js"
   ]
 }
