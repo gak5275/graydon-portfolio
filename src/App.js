@@ -13,12 +13,15 @@ import {
 import Home from "./pages";
 import Art from "./pages/art";
 import Stardew from "./pages/stardew";
+import Games from "./pages/games";
 import Extra from "./pages/extra";
 
 function App() {
   return (
       <Router>
         <Navbar />
+          <title>Graydon Kupfer's Digital Portfolio</title>
+          <h1>Graydon Kupfer's Digital Portfolio</h1>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/art" element={<Art />} />
@@ -26,6 +29,10 @@ function App() {
               path="/stardew"
               element={<Stardew />}
           />
+            <Route
+                path="/games"
+                element={<Games />}
+            />
           <Route path="/extra" element={<Extra />} />
         </Routes>
       </Router>

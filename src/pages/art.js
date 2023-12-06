@@ -7,17 +7,24 @@ import Sketch8copy from '../images/Sketch8copy.jpg';
 const Art = () => {
     return (
         <div>
-            <h1>Photoshop Projects from ART 168</h1>
+            <h2>Photoshop Projects from ART 168</h2>
             <p>These are projects that I made for my Digital Media class using Adobe Photoshop. In this class, we learned how to use new tools in Photoshop each week and are tasked with creating "sketches" using those tools (basically just taking a pre-existing image and editing it). These are a few of mine that I thought turned out well.</p>
-            <img src={Sketch5copy} alt="Sketch 5" />
-            <p>For this sketch, I added scanlines to the image and gave the palm tree a glitch effect.</p>
-            <img src={Sketch6copy} alt="Sketch 6" />
-            <p>For this sketch, I added a corruption/static effect to the TV and tinted the image blue.</p>
-            <img src={Sketch7copy} alt="Sketch 7" />
-            <p>In this sketch, I burred the background of the image to put more emphasis on the Empire State Building.</p>
-            <img src={Sketch8copy} alt="Sketch 8" />
-            <p>In this sketch, I burred the background of the image to put more emphasis on the lightning strike.</p>
-
+            <figure>
+                <img src={Sketch5copy} alt="Sketch 5" />
+                <figcaption>For this sketch, I added scanlines to the image and gave the palm tree a glitch effect.</figcaption>
+            </figure>
+            <figure>
+                <img src={Sketch6copy} alt="Sketch 6" />
+                <figcaption>For this sketch, I added a corruption/static effect to the TV and tinted the image blue.</figcaption>
+            </figure>
+            <figure>
+                <img src={Sketch7copy} alt="Sketch 7" />
+                <figcaption>In this sketch, I burred the background of the image to put more emphasis on the Empire State Building.</figcaption>
+            </figure>
+            <figure>
+                <img src={Sketch8copy} alt="Sketch 8" />
+                <figcaption>In this sketch, I burred the background of the image to put more emphasis on the lightning strike.</figcaption>
+            </figure>
         </div>
     );
 };

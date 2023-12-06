@@ -13,7 +13,10 @@ const Navbar = () => {
                         Art
                     </NavLink>
                     <NavLink to="/stardew" activeStyle>
-                        Stardew Valley Analysis
+                        Other Websites
+                    </NavLink>
+                    <NavLink to="/games" activeStyle>
+                        Games
                     </NavLink>
                     <NavLink to="/extra" activeStyle>
                         Cat
