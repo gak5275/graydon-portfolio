@@ -99,3 +99,27 @@ li {
   margin-left: 100px;
   margin-right: 100px;
 }
+
+.blue {
+  background-color: #7ebaff;
+}
+
+.yellow {
+  background-color: palegoldenrod;
+}
+
+.green {
+  background-color: aquamarine;
+}
+
+.red {
+  background-color: lightcoral;
+}
+
+.orange {
+  background-color: lightsalmon;
+}
+
+.purple {
+  background-color: plum;
+}

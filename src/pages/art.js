@@ -6,7 +6,8 @@ import Sketch8copy from '../images/Sketch8copy.jpg';
 
 const Art = () => {
     return (
-        <div>
+        <div className="red">
+            <br/>
             <h2>Photoshop Projects from ART 168</h2>
             <p>These are projects that I made for my Digital Media class using Adobe Photoshop and Illustrator. In this class, we learned how to use new tools in Photoshop and other software each week and are tasked with creating "sketches" using those tools (basically just taking a pre-existing image and editing it). These are a few of mine that I thought turned out well.</p>
             <figure>
@@ -25,6 +26,7 @@ const Art = () => {
                 <img src={Sketch8copy} alt="Sketch 8" />
                 <figcaption>In this sketch, I burred the background of the image to put more emphasis on the lightning strike.</figcaption>
             </figure>
+            <br/>
         </div>
     );
 };

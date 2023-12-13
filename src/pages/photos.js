@@ -10,7 +10,8 @@ import p8 from "../images/p8.JPG";
 
 const Photos = () => {
     return (
-        <div>
+        <div className="green">
+            <br/>
             <h2>Photos I Captured</h2>
             <p>These are photos that I took for a class during my Fall 2021 semester at Penn State Behrend. All photos (except the last one) were taken on the Behrend campus.</p>
             <figure>
@@ -40,6 +41,7 @@ const Photos = () => {
                 <img src={p8} alt="Photo 8" />
                 <figcaption>This photo was taken in my front yard.</figcaption>
             </figure>
+            <br/>
         </div>
     );
 };

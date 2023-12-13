@@ -10,7 +10,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from "./pages";
+import Home from "./pages/index";
 import Art from "./pages/art";
 import Stardew from "./pages/stardew";
 import Games from "./pages/games";
@@ -23,8 +23,9 @@ function App() {
       <Router>
         <Navbar />
           <title>Graydon Kupfer's Digital Portfolio</title>
-          <h1>Graydon Kupfer's Digital Portfolio</h1>
+          <h1><u>Graydon Kupfer's Digital Portfolio</u></h1>
         <Routes>
+          <Route exact path="/graydon-portfolio" element={<Home />} />
           <Route exact path="/" element={<Home />} />
           <Route path="/art" element={<Art />} />
           <Route
@@ -40,7 +41,8 @@ function App() {
           <Route path="/extra" element={<Extra />} />
         </Routes>
           <br/>
-          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+          <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+          <br/>
       </Router>
   );
 }
