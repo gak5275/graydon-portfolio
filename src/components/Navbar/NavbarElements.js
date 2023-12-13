@@ -9,6 +9,12 @@ const Navbar = () => {
                     <NavLink to="/" activeStyle>
                         Home
                     </NavLink>
+                    <NavLink to="/resume" activeStyle>
+                        Resume
+                    </NavLink>
+                    <NavLink to="/photos" activeStyle>
+                        Photos
+                    </NavLink>
                     <NavLink to="/art" activeStyle>
                         Art
                     </NavLink>
@@ -17,9 +23,6 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink to="/games" activeStyle>
                         Games
-                    </NavLink>
-                    <NavLink to="/extra" activeStyle>
-                        Cat
                     </NavLink>
                 </NavMenu>
             </Nav>

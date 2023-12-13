@@ -8,7 +8,7 @@ const Art = () => {
     return (
         <div>
             <h2>Photoshop Projects from ART 168</h2>
-            <p>These are projects that I made for my Digital Media class using Adobe Photoshop. In this class, we learned how to use new tools in Photoshop each week and are tasked with creating "sketches" using those tools (basically just taking a pre-existing image and editing it). These are a few of mine that I thought turned out well.</p>
+            <p>These are projects that I made for my Digital Media class using Adobe Photoshop and Illustrator. In this class, we learned how to use new tools in Photoshop and other software each week and are tasked with creating "sketches" using those tools (basically just taking a pre-existing image and editing it). These are a few of mine that I thought turned out well.</p>
             <figure>
                 <img src={Sketch5copy} alt="Sketch 5" />
                 <figcaption>For this sketch, I added scanlines to the image and gave the palm tree a glitch effect.</figcaption>
