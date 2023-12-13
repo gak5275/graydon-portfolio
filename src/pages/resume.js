@@ -1,13 +1,11 @@
 import React from "react";
 import portrait from "../images/portrait.jpg";
-import GraydonKupferResume from "../images/GraydonKupferResume.pdf"
 
 const Resume = () => {
     return (
         <div className="yellow">
             <br/>
             <h2>My Resume</h2>
-            <h3><a href="../images/GraydonKupferResume.pdf" download>Download Here</a></h3>
             <br/>
             <h1>Graydon Kupfer</h1>
             <h3>gak5275@psu.edu | (814) 616-5198 | <a href="https://github.com/gak5275">GitHub</a> | <a href="https://www.linkedin.com/in/graydon-kupfer/">LinkedIn</a></h3>
